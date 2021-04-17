@@ -93,7 +93,8 @@ var upperCasedCharacters = [
 
 // Assignment code
 
-var generateBtn = document.querySelector("#generator");
+var generateBtn = document.querySelector("#generate");
+console.log(generateBtn)
 function getUserOptions() {
 
   // set variables for options
