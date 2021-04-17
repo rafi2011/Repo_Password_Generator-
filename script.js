@@ -90,30 +90,60 @@ var upperCasedCharacters = [
 
 
 
+
 // Assignment code
 
 var generateBtn = document.querySelector("#generator");
 function getUserOptions() {
 
+  // set variables for options
+  
+  var lowercaseChosen = false;
+  var uppercaseChosen = false;
+  var specialChosen = false; 
+  var numericChosen = false;
+  var lengthChosen;
+
+lowercaseChosen = confirm("Would you like to use lowercase letters in your password ?");
+uppercaseChosen = confirm("Would you like to use upper case letters in your passsword ?");
+numericChosen = confirm("Would you like to use numeric numbers in your passsword ?");
+specialChosen = confirm("Would you like to use special characters in your passsword ?");
+lengthChosen = prompt("How long would you like your password to be ?");
+lengthChosen.parseInt(lengthChosen)
+
+console.log(typeof lengthChosen)
 
 
-//length // between 8 -120
+
+
 //lowercase
 //uppercase
 //numeric
 //special
+//length // between 8 -120
+if (lengthChosen < 8 || lengthChosen > 128 ) {
+  alert ("Plase provide a value between 8-128");
+  return;
+}
+
+// build options
+var userOptions = {
+  lowercaseChosen,
+  uppercaseChosen,
+  numericChosen,
+  specialChosen,
+  lengthChosen,
+}
 //return user option
 
 }
 
 function generatePassword () {
   var password = "my amazing password1234!";
-  //var getUserOptions = getUserOptions function
+  var UserOptions = getUserOptions();
   
  // generate password
   return password;
-
-
 }
 
 // Write password to the #password input
