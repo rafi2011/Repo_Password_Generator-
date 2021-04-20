@@ -112,7 +112,7 @@ specialChosen = confirm("Would you like to use special characters in your passsw
 lengthChosen = prompt("How long would you like your password to be ?");
 lengthChosen.parseInt(lengthChosen)
 
-console.log(typeof lengthChosen)
+//console.log(typeof lengthChosen)
 
 
 
@@ -123,27 +123,51 @@ console.log(typeof lengthChosen)
 //special
 //length // between 8 -120
 if (lengthChosen < 8 || lengthChosen > 128 ) {
-  alert ("Plase provide a value between 8-128");
+  alert ("Please provide a value between 8-128");
   return;
 }
 
 // build options
-var userOptions = {
-  lowercaseChosen,
-  uppercaseChosen,
-  numericChosen,
-  specialChosen,
-  lengthChosen,
+  var userOptions = {
+    lowercaseChosen: lowercaseChosen,
+    uppercaseChosen: uppercaseChosen,
+    numericChosen: numericChosen,
+    specialChosen: specialChosen,
+    lengthChosen: lengthChosen
 }
+  console.log(userOptions)
 //return user option
-
+  return userOptions;
 }
 
 function generatePassword () {
   var password = "my amazing password1234!";
   var UserOptions = getUserOptions();
   
+  console.log(userOptions);
  // generate password
+
+// if upper
+    // add to must have 1 upperchar
+    // add to possible characters
+
+// if lower
+    // add to must have 1 upperchar
+    // add to possible characters
+// if special
+    // add to must have 1 upperchar
+    // add to possible characters
+
+//
+//
+//
+
+
+// loop through the length chosen
+    // add arandom char to the password array from the possible character
+
+
+
   return password;
 }
 
