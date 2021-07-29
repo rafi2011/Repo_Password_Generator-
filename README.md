@@ -1,46 +1,21 @@
-# Repo_Password_Generator-
-
+# password-generator
 One Paragraph of project description goes here
 
 ## Getting Started
-* Clone me or fork me.
-* Live at: [github pages](https://rafi2011.github.io/Repo_Password_Generator-/)
 
+* clone me, or fork me
+* 🌎 live at: [github pages] ()
 
-## Built With
-* [javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Logic
+* Screen shot of the deployed app: ![Screen Shot Of The Deployed App]()
 
+## Deployment
+* just deploy, no other actions needed
 
-## Authors
+## Build With 
 
-See also the list of contributors who participated in this project.
+* [javascript] (https://developer.mozilla.org/en-US/docs/Web/JavaScript) - logic 
 
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+## Author
 
-## Acknowledgments
-* Hat tip to anyone whose code was used. 
-* **Billie Thompson** - *README* - [PurpleBooth](https://github.com/PurpleBooth)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Acknowledgements
+* **Billie Thompson** - *README template* - [PurpleBooth](https://github.com/PurpleBooth)
